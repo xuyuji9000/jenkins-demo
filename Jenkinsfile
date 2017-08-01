@@ -5,7 +5,6 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'source /etc/profile'
                 sh 'node --version'
             }
         }
