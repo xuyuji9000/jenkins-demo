@@ -1,9 +1,8 @@
 pipeline {
-    agent { docker 'node:7-alpine' }
+    agent any
     stages {
         stage('Test') {
             steps {
-                sh 'npm --version'
                 sh 'echo $PATH'
             }
         }
