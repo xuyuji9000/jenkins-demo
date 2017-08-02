@@ -1,10 +1,9 @@
 pipeline {
-    agent {
-      docker { image 'node:7-alpine' }
-    }
+    agent { docker 'node:7-alpine' }
     stages {
         stage('Test') {
             steps {
+                sh 'npm --version'
                 sh 'echo $PATH'
             }
         }
