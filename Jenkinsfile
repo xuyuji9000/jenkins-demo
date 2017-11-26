@@ -1,9 +1,9 @@
 pipeline {
     agent { docker 'node:carbon-alpine' }
     stages {
-        stage('Test') {
+        stage('Build') {
             steps {
-                sh 'echo $PATH'
+                sh 'npm install'
             }
         }
     }
