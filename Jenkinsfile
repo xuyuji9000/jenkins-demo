@@ -1,10 +1,11 @@
 pipeline {
-    agent { docker 'node:carbon-alpine' }
+    agent {
+        docker { image 'node:7-alpine' }
+    }
     stages {
-        stage('Build') {
+        stage('Test') {
             steps {
-                sh 'npm install'
-                sh 'ls'
+                sh 'node --version'
             }
         }
     }
