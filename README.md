@@ -3,7 +3,7 @@
 1. Prerequisite
 
 
-Dependencies to be prepared before the workshop,[REF](https://github.com/coderbunker/aws-playground/tree/master/Workshop-0-Prerequisite)
+    Dependencies to be prepared before the workshop,[REF](https://github.com/coderbunker/aws-playground/tree/master/Workshop-0-Prerequisite)
 
 2. Install Jenkins on Ubuntu 18.04, [REF](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04)
 
