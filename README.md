@@ -80,13 +80,20 @@
     sudo apt install nodejs npm
     sudo npm install -g n
     sudo n latest
-    sudp apt install awscli
+    sudo apt install awscli
     ```
 
 2. Add slave ssh key to credential
 
 3. Connect Slave Node
 
+    Remote root directory: /home/ubuntu/jenkins
+
+    Labels: jenkins-slave
+
+    Host: PUBLIC_IP
+
+    
 ## Step 3: Prepare S3 Bucket
 
 1. Create an IAM user
