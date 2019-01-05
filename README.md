@@ -67,6 +67,7 @@
 
 5. Generate your github token, and add to credential
 
+    ![image](https://user-images.githubusercontent.com/4877346/50719539-6c738080-10d8-11e9-9bb7-69c85ca80b3b.png)
 
 
 ## Step 3: Deploy to S3
