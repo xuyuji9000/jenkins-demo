@@ -64,7 +64,8 @@
 
 4. Fix creating Jenkins Job page keeps loading problem, with installing [Warnings Plugin](https://wiki.jenkins.io/display/JENKINS/Warnings+Plugin)
 
-5. Jenkins job Github credential could only be added at the beginning of job creation.
+
+5. Generate your github token, and add to credential
 
 
 
