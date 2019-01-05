@@ -2,11 +2,11 @@
 
 ## Step 0: Prerequisite
 
-    - AWS account
+- AWS account, [REF](https://aws.amazon.com/account/)
     
-    - Domain name
+- Domain name
 
-    Dependencies to be prepared before the workshop,[REF](https://github.com/coderbunker/aws-playground/tree/master/Workshop-0-Prerequisite)
+Dependencies to be prepared before the workshop,[REF](https://github.com/coderbunker/aws-playground/tree/master/Workshop-0-Prerequisite)
 
 ## Step 1: Prepare Jenkins 
 
