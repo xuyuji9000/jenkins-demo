@@ -105,7 +105,7 @@
 
 ## Step 4: Deploy website
 
-1. Refer to this [repo](https://github.com/xuyuji9000/jenkins-reactjs)
+1. [Create](https://reactjs.org/docs/create-a-new-react-app.html) a react app as Github repo
 
 2. Setup the Github Webhook
 
