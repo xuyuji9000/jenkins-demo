@@ -100,6 +100,7 @@
 
 1. Refer to this [repo](https://github.com/xuyuji9000/jenkins-reactjs)
 
+2. Setup the Github Webhook
 
 # Reference
 
