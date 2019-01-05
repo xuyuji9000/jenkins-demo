@@ -107,7 +107,9 @@
 
 1. [Create](https://reactjs.org/docs/create-a-new-react-app.html) a react app as Github repo
 
-2. Setup the Github Webhook
+2. Add Jenkins configuration
+
+3. Setup the Github Webhook
 
 # Reference
 
