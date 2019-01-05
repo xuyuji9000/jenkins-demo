@@ -70,6 +70,25 @@
     ![image](https://user-images.githubusercontent.com/4877346/50719539-6c738080-10d8-11e9-9bb7-69c85ca80b3b.png)
 
 
+## Step 4: Add slave node
+
+1. Create a new instance for slave node
+
+    ```
+    sudo apt update
+    sudo apt install openjdk-8-jdk
+    sudo apt install nodejs
+    npm install -g n
+    sudo n latest
+    sudp apt install awscli
+    ```
+
+2. Add slave ssh key to credential
+
+3. Connect Slave Node
+
+
+
 ## Step 3: Deploy to S3
 
 
