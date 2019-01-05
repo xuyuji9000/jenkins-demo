@@ -78,7 +78,7 @@
     sudo apt update
     sudo apt install openjdk-8-jdk
     sudo apt install nodejs npm
-    npm install -g n
+    sudo npm install -g n
     sudo n latest
     sudp apt install awscli
     ```
