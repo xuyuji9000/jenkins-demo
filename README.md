@@ -87,13 +87,21 @@
 
 3. Connect Slave Node
 
+## Step 3: Prepare S3 Bucket
+
+1. Create an IAM user
+
+2. Create S3 bucket for static site hosting, [REF](https://github.com/coderbunker/aws-playground/tree/master/Workshop-4-Static-Site-with-S3)
+
+3. Set DNS pointing to the S3 bucket
 
 
-## Step 3: Deploy to S3
+## Step 4: Deploy website
+
+1. Refer to this [repo](https://github.com/xuyuji9000/jenkins-reactjs)
 
 
-
-# Reference 
+# Reference
 
 1. [Install Jenkins on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04)
 
