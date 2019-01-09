@@ -44,7 +44,32 @@ Dependencies to be prepared before the workshop,[REF](https://github.com/coderbu
         sudo systemctl start jenkins
         sudo systemctl status jenkins
         ```
-    
+3. Use nginx as reverse proxy and enable https
+
+    A. install nginx 
+
+    ```
+    sudo apt install nginx
+    ```
+
+    B. Configure subdomain pointing to the PUBLIC_IP
+
+    C. enable ssl with certbot
+
+    ```
+    sudo add-apt-repository ppa:certbot/certbot
+    sudo apt update
+    sudo apt install python-certbot-nginx
+    sudo certbot --nginx -d jenkins-ci.coderbunker.com
+    sudo nginx -t
+    sudo systemctl reload nginx
+    ```
+
+    D. check `https://jenkins-ci.coderbunker.com/` URL
+
+
+
+
 3. Configure Jenkins
 
     A. Access Jenkins from **PUBLIC_IP:8080**
