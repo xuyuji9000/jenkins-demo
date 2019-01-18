@@ -136,6 +136,10 @@ Dependencies to be prepared before the workshop,[REF](https://github.com/coderbu
 
 3. Setup the Github Webhook
 
+# Maintenance
+
+- Upgrade Jenkins on Ubuntu 18.04: `sudo apt install --only-upgrade jenkins`
+
 # Reference
 
 1. [Install Jenkins on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04)
